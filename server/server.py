@@ -33,4 +33,4 @@ def logistic_regression():
 
 if __name__ == '__main__':
     load_saved_artifacts()
-    app.run(port=5000,debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=False)
